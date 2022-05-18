@@ -12,11 +12,25 @@
       crossorigin="anonymous"
     ></script>
     <title>Pixel Test</title>
+
+    <script type="text/javascript" src="js/app.js"></script>
   </head>
   <body>
     <h1>Pixel Test</h1>
 
-    <button type="button" class="btn btn-primary m-2">Publish</button>
-    <button type="button" class="btn btn-warning m-2">Subscribe</button>
+    <button
+      type="button"
+      class="btn btn-primary m-2"
+      onclick="publishOnClick()"
+    >
+      Publish
+    </button>
+    <button
+      type="button"
+      class="btn btn-warning m-2"
+      onclick="subscribeOnClick()"
+    >
+      Subscribe
+    </button>
   </body>
 </html>
