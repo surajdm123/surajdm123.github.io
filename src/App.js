@@ -83,8 +83,6 @@ class App extends Component {
             counters={this.state.counters}
           />
         </main>
-        <button className="btn btn-warning btn-sm m-1">Publish</button>
-        <button className="btn btn-primary btn-sm m-5">Subscribe</button>
       </React.Fragment>
     );
   }
