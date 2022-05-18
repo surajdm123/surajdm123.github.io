@@ -2,7 +2,6 @@ import NavBar from "./components/navbar";
 import "./App.css";
 import Counters from "./components/counters";
 import React, { Component } from "react";
-import { Button } from "bootstrap";
 
 class App extends Component {
   state = {
@@ -84,8 +83,8 @@ class App extends Component {
             counters={this.state.counters}
           />
         </main>
-        <Button className="btn btn-warning btn-sm m-1">Publish</Button>
-        <Button className="btn btn-primary btn-sm m-5">Subscribe</Button>
+        <button className="btn btn-warning btn-sm m-1">Publish</button>
+        <button className="btn btn-primary btn-sm m-5">Subscribe</button>
       </React.Fragment>
     );
   }
