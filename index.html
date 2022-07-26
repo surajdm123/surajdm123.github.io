@@ -1,73 +1,696 @@
-<html>
-  <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <title>Pixel Test</title>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
-    <script type="text/javascript" src="js/app.js"></script>
+<head>
+    <meta charset="utf-8">
+    <title>Suraj Devatha's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Meta Pixel Code -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <link rel="shortcut icon" href="./images/sd.png" type="image/x-icon">
+    <link rel="icon" href="./images/sd.png" type="image/x-icon">
+</head>
+
+<body id="top">
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header-->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="header-logo">
+                <a class="site-logo" href="index.html"><img src="./images/sd.png" style="width: 80px; height: 80px;" alt="Homepage"></a>
+            </div>
+
+            <nav class="header-nav-wrap">
+                <ul class="header-nav">
+                    <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll" href="#education" title="education">Education</a></li>
+                    <li><a class="smoothscroll" href="#skills" title="education">Skills</a></li>
+                    <li><a class="smoothscroll" href="#works" title="works">Work Experience</a></li>
+                    <li><a class="smoothscroll" href="#projects" title="works">Projects</a></li>
+                    <li><a class="smoothscroll" href="#awards" title="works">Awards</a></li>
+                    <li><a class="smoothscroll" href="#pubs" title="works">Publications</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-icon"></span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- home-->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/mybg.jpeg" data-natural-width=2800 data-natural-height=1700 data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main" style="margin-top: 10%;">
+                <img src="./images/Suraj-removebg-preview.png" style="width:45% ; height: 45%; position: relative;">
+
+                <h2 style="color: aliceblue; margin-top: -0.3%">
+                    Suraj Devatha
+                </h2>
+
+
+
+                <h6 style="color: rgb(12, 164, 164); margin-top: -1%">Master's in Computer Science, NCSU</h6>
+
+                <h6 style="color: rgb(12, 164, 164); margin-top: -1%;">Full Stack Developer</h6>
+                <br>
+                <div class="home-soc" id="content-mobile_icons">
+
+                    &emsp; <a style="color: rgb(95, 106, 113);" href="https://github.com/surajdm123" target="_blank"><i
+                            class="fab fa-github fa-lg" aria-hidden="true"></i></a> &emsp; <a style="color: rgb(56, 84, 149);" href="https://www.linkedin.com/in/surajdm/" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+
+                </div>
+
+
+                <div class="columns download download-button">
+                    <p style="font-size: 100%;">
+                        <a class="btn btn-animatedbg" style="text-align:center; padding: 3px; font-size: large;" href="./Suraj_Devatha_Resume.pdf" target="_blank" download>Download Resume</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- social -->
+
+        <ul class="home-social">
+
+            <li>
+                <a href="https://github.com/surajdm123" target="_blank"><i class="fab fa-github"
+                        aria-hidden="true"></i><span>GitHub</span></a>
+            </li><br margin-bottom: 2em>
+
+            <li>
+                <a href="https://www.linkedin.com/in/surajdm/" target="_blank"><i class="fab fa-linkedin"
+                        aria-hidden="true"></i><span>LinkedIn</span></a>
+
+        </ul>
+
+    </section>
+
+
+    <!-- about -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="01" class="subhead">About me</h3>
+
+                <p class="lead">
+
+                    I am an inquisitive software developer with 2+ years of experience and have a keen interest in software development, theoretical computer science, algorithms and problem solving.
+                    <br> I am also an out of the box thinker who loves breaking down big problems into smaller actionable items and brainstorming innovative solutions.
+
+
+            </div>
+        </div>
+    </section>
+    <!-- education -->
+
+    <section id="education" class="s-services target-section">
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="02" class="subhead">Education</h3>
+            </div>
+        </div>
+
+        <div class="row about-process block-1-2 block-tab-full" style="color:white">
+
+            <div class="col-block item-process" data-aos="fade-up">
+
+                <img src="./images/icons/ncsu.png" style="height: 40px; width: 60px; margin-bottom: -1.2%;">
+                <span style="font-size: x-large;"><b>North Carolina State University </b></span>
+                <p> Aug 2021 - Present
+                    <br>Master's in Computer Science<br>4.0/4.0 GPA
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+
+                <img src="./images/icons/bnmit.jpeg" style="height: 40px; width: 40px; margin-bottom: -1.2%;">
+                <span style="font-size: x-large;"><b>B.N.M Institute of Technology </b></span>
+                <p> Aug 2015 - Jun 2019
+                    <br>Bachelor's in Computer Science & Engineering <br>8.76/10.0 GPA
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- skills -->
+    <section id="skills" class="s-works target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="03" class="subhead">Skills</h3>
+            </div>
+        </div>
+
+        <div class="row services-list block-1-2 block-m-1-2 block-tab-full">
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <img src="./images/icons/laptop-fill.svg" style="height: 30px; width: 30px; margin-bottom: -1.2%;">
+                <span style="font-family: sans-serif;  font-size: 22px;   color:rgb(66, 66, 176);"><b>Programming
+                        Languages</b></span>
+                <p>
+                    Java, Python, C, C++, C#, Bash, Javascript
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+
+                <span style="font-family: sans-serif;  font-size: 22px;   color:rgb(66, 66, 176);">
+                    <i class="fas fa-code" style="color: black;"></i>
+                    <b>Web Technologies</b>
+                </span>
+                <p>
+                    Springboot, Flask, React, NodeJS, Hack, HTML5, CSS, jQuery, Bootstrap, PHP
+                </p>
+            </div>
+
+            <!-- <div class="col-block item-service" data-aos="fade-up">
+                <span style="font-family: sans-serif;  font-size: 22px;   color:rgb(66, 66, 176);">
+                    <i class="fas fa-cloud" style="color: black;"></i>
+                    <b>Cloud Technologies</b>
+                </span>
+                <p>
+                    AWS, Azure
+                </p>
+            </div> 
+        
+            <div class="col-block item-service" data-aos="fade-up">
+                <span style="font-family: sans-serif;  font-size: 22px;   color:rgb(66, 66, 176);">
+                    <i class="fab fa-microsoft" style="color: black;"></i>
+                    <b>MS Office</b>
+                </span>
+                <p>
+                    Word, Powerpoint, Excel, Visio
+                </p>
+            </div> -->
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <span style="font-family: sans-serif;  font-size: 22px;   color:rgb(66, 66, 176);">
+                    <i class="fas fa-database" style="color: black;"></i>
+                    <b>Database Technologies</b>
+                </span>
+                <p>
+                    MySQL, MongoDB, Elastic Search, OracleDB, SQLite, MariaDB, Amazon RDS, NoSQL
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <span style="font-family: sans-serif;  font-size: 22px;   color:rgb(66, 66, 176);">
+                    <i class="fab fa-medapps" style="color: black;"></i>
+                    <b>Softwares & Tools</b>
+                </span>
+                <p>
+                    ELK Stack, Jenkins, Git, Android Studio, Jaspersoft Studio, JUnit Testing, Linux, Maven, Gradle
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- works exp-->
+    <section id="works" class="s-clients target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="04" class="subhead">Work experience</h3>
+
+            </div>
+        </div>
+
+        <div class="timeline" data-aos="fade-up">
+            <div class="container left">
+                <div class="content">
+                    <h2 style="color:rgb(66, 66, 176);">Software Engineer Intern</h2>
+                    <p>
+                        <i style="color: #b76d35; opacity: 70%;"><b>Meta (Formerly Facebook), Seattle, WA</b></i>
+                        <br><i style="color: #b76d35; opacity: 70%;">May 2022 - Present</i>
+                        <br> - Impacted 45,000+ advertisers by designing and developing a banner in the Facebook Ads Events Manager portal to increase the adaption of Conversions API, using React and Hack.
+                        <br> - Implemented an email notification channel that helped 4,000+ businesses troubleshoot issues with Meta Pixel and Conversions API Gateway.
+                        <br> - Built 10+ dashboards to monitor advertiser's engagements and impressions on platform feature announcements. <br>
+
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h2 style="color:rgb(66, 66, 176);">Graduate Teaching Assistant</h2>
+                    <p>
+                        <i style="color: #b76d35; opacity: 70%;"><b>North Carolina State University</b></i>
+                        <br><i style="color: #b76d35; opacity: 70%;">Aug 2021 - May 2022</i>
+                        <br> Mentoring 60+ students to understand concepts in C#, object oriented programming, data structures, database management systems and GUI design.
+                    </p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h2 style="color:rgb(66, 66, 176);">Senior Software Development Engineer</h2>
+                    <p>
+                        <i style="color: #b76d35; opacity: 70%;">Perfios Software Solutions Pvt. Ltd., India</i>
+                        <br><i style="color: #b76d35; opacity: 70%;">Jul 2019 - Jul 2021</i>
+                        <br> <b>1) Report Scheduler</b>
+                        <br>- Developed a centralized MIS reporting engine using Spring Boot to automatically generate and deliver product usage reports to the clients and hosted the application in Amazon EC2 Instance.
+                        <br>- Reduced manual efforts by 60% for the Support team by automating the process of sending alerts to the clients.
+                        <br>- Optimized algorithms to reduce the computation time and lines of code by 80%, using Java libraries like Google Guava and Apache Commons.
+                        <br>- Improved code coverage by 40% and ensured continuous operation of test systems and build by configuring CI/CD pipeline with Jenkins.
+                        <br><b>2) Product Analytics</b>
+                        <br>- Automated a data pipeline, using python and shell scripts, to push 500,000+ records from MySQL to Elastic Search.
+                        <br>- Automated fraud detection using Watchers in Kibana resulting in reducing end-to-end process duration by 40%.
+                        <br><b>3) Perfios Usage Billing System (PUBS)</b>
+                        <br>- Reduced overall TAT from 2 days to 1.5 hours through automation of monthly invoice generation for 200+ clients, implemented using Drools rule engine.
+                        <br>- Devised REST APIs to push product and billing details from PUBS to Salesforce
+
+                    </p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2 style="color:rgb(66, 66, 176);">Software Engineer Intern</h2>
+                    <p>
+                        <i style="color: #b76d35; opacity: 70%;">Perfios Software Solutions Pvt. Ltd., India</i>
+                        <br><i style="color: #b76d35; opacity: 70%;">Feb 2019 - Apr 2020</i>
+                        <br>Designed and developed a standalone web application using SpringBoot to alleviate the efforts taken by the Data Processing team in manually verifying scanned documents.
+                    </p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h2 style="color:rgb(66, 66, 176);">Android App Developer Intern</h2>
+                    <p>
+                        <i style="color: #b76d35; opacity: 70%;">SenseSemi Technologies, India</i>
+                        <br><i style="color: #b76d35; opacity: 70%;">May 2018 – Jul 2018</i>
+                        <br>- Understand the complexities involved in SenseSmart device which is an intelligent integrated device that monitors the user’s blood pressure, minimal SPO2, body temperature and glucose levels.
+                        <br>- Designed and developed an android application to provide a user-friendly interface that displays vital heathcare information from SenseSmart through Bluetooth.
+                    </p>
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+    <!-- projects -->
+
+    <section id="projects" class="s-works target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="05" class="subhead">Projects</h3>
+                <span class="display-1 display-1--light" style="color: #777;position:relative; font-size: medium;margin-left: 7%;opacity: 50%;">Click each
+                    title to view project description</span>
+
+            </div>
+        </div>
+        <br>
+
+        <div class="row section-header" data-aos="fade-up">
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        CI/CD Pipeline | DevOps
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - Developed a pipeline using NodeJS which enables user's automatically build, test, and deploy applications from a host machine to a cloud instance.
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b>  NodeJS, JavaScript, Digital Ocean, Shell, Ansible Playbook</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://github.com/surajdm123/CI-CD-Pipeline" target="_blank">Code</a>
+                    </p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        Feature Hunt
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - A feature collection platform where users can share/vote/discuss feature requests and product owners can organize them.
+                        <br>- This application was built for the course Software Engineering (CSC-530) and helped developers collect features for 15+ projects.
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b>  React, JavaScript, Python3, Flask, MongoDB, HTML, CSS</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://github.com/surajdm123/feature-hunt" target="_blank">Code</a>
+                    </p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        WolfTrack - Job Application Tracker
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - Designed a stand-alone web application to help users organize, track, and get reminders of their job applications.
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b>  Flask framework, Python 3, HTML, Bootstrap, CSS, jQuery, Amazon RDS</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://github.com/surajdm123/WolfTrack" target="_blank">Code</a>
+                    </p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        Foreign Exchange Rate Prediction
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - Devised a forecasting application that analyses time series data and predicts the exchange rate of INR against USD, using ARIMA model, with an accuracy of 86%
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b>  Python 3, Numpy, Pandas, Tensorflow, Keras, Jupyter Notebook</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://github.com/surajdm123/Foreign-Exchange-Rate-Prediction" target="_blank">Code</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        Personalization Cards | Android Application
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - Developed and published an android application that helps users personalize their phone. The app has over 1000+ downloads on the Play Store.
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b>  Java, XML, SQLite, Gradle</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://play.google.com/store/apps/details?id=com.androidexample.personalizationcards.personalizationcards&hl=en&gl=US" target="_blank">Live</a>
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        WolfPubDB - Publishing House DBMS
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - Designed and developed a database management system that caters to multiple users in the publishing house for distributing, stroring and maintaining different kinds of publications.
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b> Java, MariaDB</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://github.com/surajdm123/WolfPubDB" target="_blank">Code</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        Simplii - Task Manager
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - Implemented a web application that helps users add tasks and organise them using tags. The app also has the ability to remind users about important deadlines.
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b>  Flask Framework, Python 3, HTML, Bootstrap, CSS, jQuery, Amazon RDS</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://github.com/surajdm123/Simplii" target="_blank">Code</a>
+                    </p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        Conversational Assistant based on Sentiment Analysis
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - Developed a chatbot that uses sentiment analysis for empathetic response generation using a Recurrent Neural Network (RNN).
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b>  Python 3, Numpy, Pandas, PyTorch, Jupyter Notebook</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://www.irjet.net/archives/V6/i9/IRJET-V6I905.pdf" target="_blank">Technical Paper</a>
+                    </p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="collapsible">
+                    <p style="margin: 0%;">
+                        Obstacle Detection for the Blind
+                    </p>
+                </div>
+
+                <div class="colcontent">
+                    <p>
+                        - Developed a system to alert the user of the presence of an obstacle in their path through audio and haptic feedback using Microcontroller and external sensors.
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Tech:</b>  Arduino UNO, Raspberry Pi, Ultrasonic Sensors</i>
+                        <br><i style="color: #b76d35; opacity: 70%;"><b>Links:</b> </i><a href="https://ieeexplore.ieee.org/document/8862635" target="_blank">IEEE Technical Paper</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- stats-->
+    <!-- <section id="stats" class="s-stats">
+
+        <div class="row stats-block block-1-3 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block item-stats ">
+                <div class="item-stats__count">960000</div>
+                <h5>Lines of Code</h5>
+            </div>
+            
+            <div class="col-block item-stats">
+                <div class="item-stats__count">7</div>
+                <h5>Awards Received</h5>
+            </div>
+            <div class="col-block item-stats">
+                <div class="item-stats__count">3</div>
+                <h5>Publications</h5> 
+            </div>
+
+        </div> 
+
+    </section>  -->
+
+    <!-- awards-->
+
+    <section id="awards" class="s-awards target-section">
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="02" class="subhead">Achievements and Awards</h3>
+            </div>
+        </div>
+
+        <div class="row about-process block-1-2 block-tab-full" style="color:white">
+
+            <div class="col-block item-process" data-aos="fade-up">
+
+                <img src="./images/icons/perfios.png" style="height: 40px; width: 60px; margin-bottom: -1.2%;">
+                <span style="font-size: x-large;"><b>Perfios Software Solutions Pvt. Ltd.</b></span>
+                <p>
+                    - Received an <b style="color: #b66120;">Award of Excellence</b> for integrating reporting engines from different servers into ‘Report Scheduler’ as per the timeline published to end customers.
+                    <br>- Received <b style="color: #b66120;">Award of Excellence</b> for designing and implementing 'Report Scheduler'.
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+
+                <img src="./images/icons/bnmit.jpeg" style="height: 40px; width: 40px; margin-bottom: -1.2%;">
+                <span style="font-size: x-large;"><b>B.N.M Institute of Technology </b></span>
+                <p>
+                    - Awarded the <b style="color: #b66120;">Best Project</b> at the Department level in the Innovative Project Lab Summer Competition 2018 for the project- Obstacle Detection for the Blind.
+                    <br>- Secured multiple <b style="color: #b66120;">Academic Awards</b> in VTU Examinations at department level.
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Publications -->
+
+
+    <section id="pubs" class="s-works target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="06" class="subhead">Publications</h3>
+            </div>
+        </div>
+
+        <div class="row services-list block-1-1 block-m-1-2 block-tab-full">
+            <div class="col-block item-service" data-aos="fade-up">
+                <img src="./images/icons/ieee.png" style="height: 40px; width: 40px; margin-bottom: -1.2%;">
+                <span style="font-family: sans-serif;  font-size: 22px;   color:rgb(66, 66, 176);">
+
+                    <b>&nbsp; Conference Papers</b></span>
+                <p>
+                    - “Obstacle Detection for the Visually Impaired Using Arduino”, International Conference on Trends in Electronics and Informatics (ICOEI), 2019 (Publication: <b style="color: #b66120;">IEEE Xplore</b>) (<a href="https://ieeexplore.ieee.org/document/8862635"
+                        target="_blank">Link
+                    </a>).
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <img src="./images/icons/research-paper.webp" style="height: 40px; width: 40px; margin-bottom: -1.2%;">
+                <span style="font-family: sans-serif;  font-size: 22px;   color:rgb(66, 66, 176);">
+
+                    <b>&nbsp; Journal Publication</b>
+                </span>
+                <p>
+                    - “Survey on Sentiment Analysis”, International Journal Of Engineering Research and Technology (IJERT), Volume 08, Issue 04, April 2019. (<a href="https://www.ijert.org/survey-on-sentiment-analysis" target="_blank">Link
+                </a>)
+                    <br>- “Conversational Assistant based on Sentiment Analysis”, International Research Journal of Engineering and Technology (IRJET), Volume 06. Issue 09, September 2019. (<a href="https://www.irjet.net/archives/V6/i9/IRJET-V6I905.pdf"
+                        target="_blank">Link
+            </a>)
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="07" class="subhead">Contact Me</h3>
+
+            </div>
+        </div>
+        <div class="row contact-infos" style="margin-top: -2%;">
+
+
+
+            <div class="md-six tab-full contact-social" style="text-align: center" data-aos="fade-up">
+                <h1 style="color: rgb(48, 161, 161); ">E-Mail</h1>
+
+                <p style="font-size:18px"><a href="mailto:sdevath@ncsu.edu" style="color: antiquewhite" target="_blank">sdevath@ncsu.edu</a></p>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- footer-->
+    <footer>
+        <div class="row">
+            <div class="col-full cl-copyright" style="text-align: center;">
+                <span>Created by Suraj Devatha.<br><br></span>
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background-->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Java Script -->
     <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
-      fbq("init", "707162443931600");
-      fbq("track", "PageView");
-    </script>
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=707162443931600&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-  </head>
-  <body>
-    <h1>Pixel Test</h1>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
 
-    <button
-      type="button"
-      class="btn btn-primary m-2"
-      onclick="publishOnClick()"
-    >
-      Publish
-    </button>
-    <button
-      type="button"
-      class="btn btn-warning m-2"
-      onclick="subscribeOnClick()"
-    >
-      Subscribe
-    </button>
-  </body>
-</html>
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
